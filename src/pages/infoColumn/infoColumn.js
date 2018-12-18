@@ -14,7 +14,7 @@ class InfoColumn extends React.Component {
 
           </div>  
         </section>
-        <section>
+        <section className="tag">
           <div className="title">tag</div>
           <div className="container">
             <ul className="list">

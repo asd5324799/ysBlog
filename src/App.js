@@ -14,9 +14,9 @@ class App extends React.Component {
           <Header></Header>
           <main>
             <div className="crumbs">
-              <span className="text">Home</span>
+              <span className="text" path="/">Home</span>
               <span className="text arrow-right">></span>
-              <span className="text">ArticleList</span>
+              <span className="text" path="/">ArticleList</span>
               <span className="text arrow-right">></span>
               <span className="text">ArticleDetail</span>
             </div>

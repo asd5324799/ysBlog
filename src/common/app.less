@@ -3,10 +3,14 @@ main {
   margin: 0 auto;
   .crumbs {
     height: 60px;
+    margin: 0 10px;
     line-height: 60px;
     font-size: 14px;
     .text {
       margin-right: 10px;
+      &:nth-of-type(2n-1) {
+        cursor: pointer;
+      }
     }
   }
   .wrapper {
